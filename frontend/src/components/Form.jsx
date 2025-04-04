@@ -4,7 +4,10 @@ import "./Form.css";
 const Form = () => {
   return (
     <div className="form-container">
-      <p>Ola mundo</p>
+      <form action="">
+        <label htmlFor="">Nome</label>
+        <input type="text" />
+      </form>
     </div>
   );
 };
