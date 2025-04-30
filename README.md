@@ -11,7 +11,7 @@ Precisa ter o Python instalado em sua máquina. Para instalá-lo, você pode seg
 ```bash
 git clone https://github.com/cpt-ufal-arapiraca/ace6-geinfra.git
 ```
-2. Nagegue até a pasta backend
+2. Navegue até a pasta backend
 ```bash
 cd backend
 ```
@@ -83,9 +83,14 @@ Deve ser possível visualizar a aplicação em execução.
 
 
 ## ⚙️ Executando os testes
-
-Os testes ainda não foram implementados à aplicação...
-
+1. Navegue até api
+```bash
+cd api
+```
+2. Execute o script
+```bash
+python manage.py test
+```
 
 ## 🛠️ Construído com
 
